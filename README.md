@@ -30,9 +30,14 @@ python manage.py runserver
 
 Django Admin Panel: http://localhost:8000/admin/
 
-Convverter Admin Panel: http://localhost:8000/admin/converter/
+Converter Admin Panel: http://localhost:8000/admin/converter/
 
 API Documentation (Swagger UI): http://localhost:8000/api/v1/docs/
 
 
 In case access login is needed, credentials are (admin,admin)
+
+
+The database (db.sqlite3) comes preloaded with providers, currencies, and historical exchange rates to allow immediate testing without any additional setup or data fetching.
+
+This ensures the system is ready to use.
