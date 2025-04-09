@@ -19,10 +19,14 @@ A Django + DRF backend for retrieving, storing, and converting currency exchange
 ##  Setup Instructions
 
 git clone https://github.com/AdamAbidi/mycurrency-backend.git
+
 cd mycurrency-backend
+
 pip install -r requirements.txt
+
 python manage.py runserver
 
+---
 
 Django Admin Panel: http://localhost:8000/admin/
 
